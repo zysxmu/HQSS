@@ -89,6 +89,15 @@ GoogleDrive: [ISTD](https://drive.google.com/file/d/1VzkJA0weQj4-U3VFDP8GpCCkXTh
 
 Results in shadow and non-shadow regions are computed on each image first and then compute the average of all images in terms of RMSE.
 
+## Shadow Video Results
+| Method | RMSE | RMSE$_{40}$ | PSNR | SSIM |
+|:-----|:-----:|:------:|------|:-----|
+| [Le & Samaras (ECCV20)](https://github.com/lmhieu612/FSS2SR) | - | 20.9 | - | - |
+| [G2R-ShadowNet (CVPR21)](https://github.com/hhqweasd/G2R-ShadowNet) | 21.8 | 18.8 | 21.07 | 0.882 |
+| HQSS (Ours) | 18.95 | 16.82 | 21.89 | 0.888 |
+
+RMSE$_{40}$ denotes that the moving-shadow mask is computed with a threshold of 40. Other results use the moving-shadow mask which is computed with a threshold of 80.
+
 ## Acknowledgments
 Code is implemented based on [G2R-ShadowNet](https://github.com/hhqweasd/G2R-ShadowNet)
 
