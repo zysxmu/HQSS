@@ -1,5 +1,5 @@
-# HQSS
-[Shadow Removal by High-Quality Shadow Synthesis]
+# Code for HQSS: Shadow Removal by High-Quality Shadow Synthesis [Paper](https://arxiv.org/abs/2212.04108)
+
 
 ## Dependencies
 This code uses the following libraries
